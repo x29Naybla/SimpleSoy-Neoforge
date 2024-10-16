@@ -1,5 +1,8 @@
 package com.x29naybla.simplesoy;
 
+import com.x29naybla.simplesoy.block.ModBlocks;
+import com.x29naybla.simplesoy.item.ModItems;
+import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -19,8 +22,7 @@ import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(SimpleSoy.MOD_ID)
-public class SimpleSoy
-{
+public class SimpleSoy {
     public static final String MOD_ID = "simplesoy";
     private static final Logger LOGGER = LogUtils.getLogger();
     
@@ -34,6 +36,9 @@ public class SimpleSoy
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 
@@ -46,7 +51,19 @@ public class SimpleSoy
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+            event.accept(ModItems.SOYBEANS);
+        }
 
+        if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ModItems.SOY_MILK);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
+            event.accept(ModItems.SOY_MILK);
+            event.accept(ModItems.TOFU);
+            event.accept(ModItems.MISO_SOUP);
+        }
     }
 
     @SubscribeEvent

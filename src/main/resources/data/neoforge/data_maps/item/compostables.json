@@ -1,0 +1,10 @@
+{
+  "values": {
+    "simplesoy:soybeans": {
+      "chance": 0.3
+    },
+    "simplesoy:tofu": {
+      "chance": 0.65
+    }
+  }
+}
