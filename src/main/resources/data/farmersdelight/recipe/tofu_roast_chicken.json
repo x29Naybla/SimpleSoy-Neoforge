@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "farmersdelight:onion"
+    },
+    {
+      "tag": "c:eggs"
+    },
+    {
+      "tag": "c:foods/bread"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "simplesoy:tofu"
+    },
+    {
+      "item": "minecraft:baked_potato"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "id": "farmersdelight:roast_chicken"
+  }
+}
