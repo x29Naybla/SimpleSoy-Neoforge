@@ -7,7 +7,7 @@
       "item": "simplesoy:tofu"
     },
     {
-      "tag": "forge:pasta"
+      "tag": "c:foods/pasta"
     },
     {
       "item": "farmersdelight:tomato_sauce"
@@ -15,6 +15,6 @@
   ],
   "recipe_book_tab": "meals",
   "result": {
-    "item": "farmersdelight:pasta_with_meatballs"
+    "id": "farmersdelight:pasta_with_meatballs"
   }
 }

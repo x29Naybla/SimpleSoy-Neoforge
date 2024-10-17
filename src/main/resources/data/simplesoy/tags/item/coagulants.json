@@ -1,7 +1,7 @@
 {
   "values": [
     "minecraft:apple",
-    "minecraft:egg",
+    "#c:eggs",
     "minecraft:kelp",
     "minecraft:seagrass"
   ]
