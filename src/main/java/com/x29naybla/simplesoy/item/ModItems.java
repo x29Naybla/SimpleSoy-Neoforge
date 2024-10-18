@@ -14,7 +14,7 @@ public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(SimpleSoy.MOD_ID);
 
     public static final DeferredItem<Item> SOYBEANS = ITEMS.register("soybeans",
-            () -> new ItemNameBlockItem(ModBlocks.SOY_CROPS.get(), new Item.Properties()));
+            () -> new ItemNameBlockItem(ModBlocks.SOY_CROP.get(), new Item.Properties()));
 
     public static final DeferredItem<Item> SOY_MILK = ITEMS.register("soy_milk",
             () -> new SoyMilkItem(new Item.Properties().food(ModFoodProperties.SOY_MILK).stacksTo(16).craftRemainder(Items.GLASS_BOTTLE)));

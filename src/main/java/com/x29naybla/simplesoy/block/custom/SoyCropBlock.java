@@ -6,10 +6,10 @@ import net.minecraft.world.level.block.CropBlock;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
 
-public class SoyCropsBlock extends CropBlock {
+public class SoyCropBlock extends CropBlock {
     public static final IntegerProperty AGE = IntegerProperty.create("age",0,5);
 
-    public SoyCropsBlock(Properties properties) {
+    public SoyCropBlock(Properties properties) {
         super(properties);
     }
 
