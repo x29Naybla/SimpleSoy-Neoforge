@@ -1,9 +1,9 @@
 {
   "item.simplesoy.soybeans": "Soybeans",
-  "item.simplesoy.soy_milk": "Soy Milk Bottle",
 
+  "item.simplesoy.soy_milk": "Soy Milk Bottle",
   "item.simplesoy.tofu": "Tofu",
   "item.simplesoy.miso_soup": "Miso Soup",
 
-  "block.simplesoy.soy_crop": "Soy Crops"
+  "block.simplesoy.soy": "Soy Crops"
 }

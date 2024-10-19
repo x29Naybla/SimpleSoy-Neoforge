@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "simplesoy:soy_milk"
+    },
+    {
+      "tag": "simplesoy:coagulants"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "simplesoy:tofu"
+  }
+}

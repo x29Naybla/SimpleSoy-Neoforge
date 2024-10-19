@@ -38,7 +38,7 @@ displayName="${mod_name}" #mandatory
 logoFile="simplesoy.png" #optional
 
 # A text field displayed in the mod UI
-credits="Soy Crops sprites by Eris" #optional
+credits="Crop sprites by Eris, Code help from Soumeh and .vectorwing" #optional
 
 # A text field displayed in the mod UI
 authors="${mod_authors}" #optional
