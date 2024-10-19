@@ -17,7 +17,7 @@ public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(SimpleSoy.MOD_ID);
 
     public static final Supplier<Block> SOY = BLOCKS.register("soy",
-            () -> new SoyBlock(Block.Properties.ofFullCopy(Blocks.WHEAT).noLootTable()));
+            () -> new SoyBlock(Block.Properties.ofFullCopy(Blocks.WHEAT)));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block){
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

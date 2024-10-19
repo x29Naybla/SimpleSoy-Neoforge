@@ -2,6 +2,7 @@ package com.x29naybla.simplesoy;
 
 import com.x29naybla.simplesoy.block.ModBlocks;
 import com.x29naybla.simplesoy.item.ModItems;
+import com.x29naybla.simplesoy.loot.LootModifierInit;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
 
@@ -38,6 +39,7 @@ public class SimpleSoy {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        LootModifierInit.LOOT_MODIFIERS.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
