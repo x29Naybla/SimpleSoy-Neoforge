@@ -1,25 +1,26 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
+  "group": "rabbit_stew",
   "ingredients": [
     {
-      "tag": "c:foods/bread"
+      "item": "minecraft:baked_potato"
     },
     {
       "item": "simplesoy:tofu"
     },
     {
-      "tag": "c:foods/leafy_green"
+      "item": "minecraft:bowl"
     },
     {
-      "tag": "c:crops/tomato"
+      "item": "minecraft:carrot"
     },
     {
-      "tag": "c:crops/onion"
+      "item": "minecraft:brown_mushroom"
     }
   ],
   "result": {
     "count": 1,
-    "id": "farmersdelight:hamburger"
+    "id": "minecraft:rabbit_stew"
   }
 }

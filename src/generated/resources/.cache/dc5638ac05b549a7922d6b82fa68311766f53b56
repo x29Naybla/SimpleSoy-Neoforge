@@ -1,6 +1,7 @@
-// 1.21.1	2024-10-19T18:47:27.5562223	Tags for minecraft:item mod id simplesoy
+// 1.21.1	2024-10-20T17:51:38.6987968	Tags for minecraft:item mod id simplesoy
 fbd413104efc191eb652f6c3918c373a19e3fb92 data/create/tags/item/upright_on_belt.json
 a94313ca8652d4868b1155e867a654166aba40d7 data/c/tags/item/crops.json
+a94313ca8652d4868b1155e867a654166aba40d7 data/c/tags/item/crops/bean.json
 a94313ca8652d4868b1155e867a654166aba40d7 data/c/tags/item/crops/soybean.json
 b11ea3abba05a3efe987466f3105ef75ab350279 data/c/tags/item/foods/cooked_bacon.json
 b11ea3abba05a3efe987466f3105ef75ab350279 data/c/tags/item/foods/cooked_beef.json
@@ -22,8 +23,10 @@ a94313ca8652d4868b1155e867a654166aba40d7 data/c/tags/item/seeds.json
 fbd413104efc191eb652f6c3918c373a19e3fb92 data/c/tags/item/soy_milk.json
 b11ea3abba05a3efe987466f3105ef75ab350279 data/c/tags/item/tofu.json
 a94313ca8652d4868b1155e867a654166aba40d7 data/minecraft/tags/item/chicken_food.json
+b11ea3abba05a3efe987466f3105ef75ab350279 data/minecraft/tags/item/fishes.json
 b11ea3abba05a3efe987466f3105ef75ab350279 data/minecraft/tags/item/meat.json
 a94313ca8652d4868b1155e867a654166aba40d7 data/minecraft/tags/item/parrot_food.json
 a94313ca8652d4868b1155e867a654166aba40d7 data/minecraft/tags/item/villager_plantable_seeds.json
-31d9cce1a4b8c6b65320bbe9503883ad69a64462 data/sereneseasons/tags/item/spring_crops.json
+a94313ca8652d4868b1155e867a654166aba40d7 data/sereneseasons/tags/item/spring_crops.json
+a94313ca8652d4868b1155e867a654166aba40d7 data/sereneseasons/tags/item/summer_crops.json
 a88ca5e2221070e9a2245996d21878f81877fdfd data/simplesoy/tags/item/coagulants.json

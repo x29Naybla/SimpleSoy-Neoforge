@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "simplesoy:tofu"
+    },
+    {
+      "item": "simplesoy:tofu"
+    },
+    {
+      "item": "farmersdelight:cooked_rice"
+    }
+  ],
+  "result": {
+    "id": "farmersdelight:cod_roll"
+  }
+}

@@ -37,6 +37,8 @@ public class ModItemTagProvider extends ItemTagsProvider {
         //Common Tags
         tag(ModTags.Items.CROPS_SOYBEAN).add(ModItems.SOYBEANS.get());
 
+        tag(ModTags.Items.CROPS_BEAN).add(ModItems.SOYBEANS.get());
+
         tag(Tags.Items.CROPS).add(ModItems.SOYBEANS.get());
 
         tag(Tags.Items.SEEDS).add(ModItems.SOYBEANS.get());
@@ -83,10 +85,12 @@ public class ModItemTagProvider extends ItemTagsProvider {
         //Serene Seasons Tags
         tag(ModTags.Items.SPRING_CROPS).add(ModItems.SOYBEANS.get());
 
-        tag(ModTags.Items.SPRING_CROPS).add(ModItems.SOYBEANS.get());
+        tag(ModTags.Items.SUMMER_CROPS).add(ModItems.SOYBEANS.get());
 
         //Vanilla Tags
         tag(ItemTags.MEAT).add(ModItems.TOFU.get());
+
+        tag(ItemTags.FISHES).add(ModItems.TOFU.get());
 
         tag(ItemTags.CHICKEN_FOOD).add(ModItems.SOYBEANS.get());
 

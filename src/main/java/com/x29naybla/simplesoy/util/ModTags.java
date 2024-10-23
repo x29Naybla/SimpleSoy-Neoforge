@@ -36,6 +36,7 @@ public class ModTags {
 
         //Common Tags
         public static final TagKey<Item> CROPS_SOYBEAN = commonItemTag("crops/soybean");
+        public static final TagKey<Item> CROPS_BEAN = commonItemTag("crops/bean");
         public static final TagKey<Item> SOY_MILK = commonItemTag("soy_milk");
         public static final TagKey<Item> TOFU = commonItemTag("tofu");
         public static final TagKey<Item> FOODS_COOKED_BACON = commonItemTag("foods/cooked_bacon");

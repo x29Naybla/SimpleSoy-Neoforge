@@ -37,7 +37,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.TOFU.get(),1)
                 .requires(ModItems.SOY_MILK)
                 .requires(ModTags.Items.COAGULANTS)
-                .unlockedBy("has_soy_milk", has(ModItems.SOY_MILK)).save(recipeOutput);
+                .unlockedBy("has_soybeans", has(ModItems.SOYBEANS)).save(recipeOutput);
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.MISO_SOUP.get(),1)
                 .requires(ModItems.SOYBEANS)
@@ -45,7 +45,6 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(Items.KELP)
                 .requires(Items.BROWN_MUSHROOM)
                 .requires(Items.BOWL)
-                .unlockedBy("has_tofu", has(ModItems.TOFU)).save(recipeOutput);
-
+                .unlockedBy("has_soybeans", has(ModItems.SOYBEANS)).save(recipeOutput);
     }
 }

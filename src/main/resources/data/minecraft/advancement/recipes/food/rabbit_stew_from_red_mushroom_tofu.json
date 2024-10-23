@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_soybeans": {
+    "has_cooked_rabbit": {
       "conditions": {
         "items": [
           {
-            "items": "simplesoy:soybeans"
+            "items": "minecraft:cooked_rabbit"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "simplesoy:miso_soup"
+        "recipe": "minecraft:rabbit_stew_from_red_mushroom_tofu"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_soybeans"
+      "has_cooked_rabbit"
     ]
   ],
   "rewards": {
     "recipes": [
-      "simplesoy:miso_soup"
+      "minecraft:rabbit_stew_from_red_mushroom_tofu"
     ]
   }
 }

@@ -1,5 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "rabbit_stew",
   "ingredients": [
     {
       "item": "minecraft:baked_potato"
@@ -11,13 +13,14 @@
       "item": "minecraft:bowl"
     },
     {
-      "item": "farmersdelight:onion"
+      "item": "minecraft:carrot"
     },
     {
-      "item": "farmersdelight:cooked_rice"
+      "item": "minecraft:red_mushroom"
     }
   ],
   "result": {
-    "id": "farmersdelight:steak_and_potatoes"
+    "count": 1,
+    "id": "minecraft:rabbit_stew"
   }
 }

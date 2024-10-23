@@ -3,19 +3,19 @@
   "category": "misc",
   "ingredients": [
     {
-      "tag": "c:foods/bread"
-    },
-    {
       "item": "simplesoy:tofu"
     },
     {
-      "tag": "c:foods/leafy_green"
+      "item": "minecraft:beetroot"
     },
     {
-      "tag": "c:crops/tomato"
+      "item": "minecraft:bowl"
     },
     {
-      "tag": "c:crops/onion"
+      "item": "farmersdelight:cooked_rice"
+    },
+    {
+      "item": "c:crops/tomato"
     }
   ],
   "result": {
